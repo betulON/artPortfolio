@@ -198,17 +198,17 @@ ul {
   border-bottom: 1px solid var(--line);
 }
 
-.hero-grid {
+/* .hero-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 56px;
   align-items: center;
-}
+} */
 
 .intro {
   font-size: 1.1rem;
   color: var(--muted);
-  max-width: 720px;
+  /* max-width: 720px; */
 }
 
 .page-section {
@@ -329,6 +329,24 @@ ul {
   aspect-ratio: 3 / 4;
 }
 
+.about-intro {
+  display: grid;
+  grid-template-columns: 118px 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.about-profile {
+  /* width: 118px; */
+  /* aspect-ratio: 1 / 1; */
+  /* object-fit: cover; */
+  border-radius: 50%;
+  /* border: 1px solid var(--line); */
+  /* padding: 5px; */
+  background: var(--bg);
+  filter: saturate(0.9) contrast(0.96);
+}
+
 .game-media-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -358,8 +376,9 @@ ul {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+  /* max-width: 820px; */
 }
 
 .art-card {
@@ -514,5 +533,14 @@ ul {
   .theme-toggle {
     border-left: 0;
     padding-left: 0;
+  }
+
+  .about-intro {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .about-profile {
+    width: 104px;
   }
 }
