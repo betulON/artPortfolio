@@ -92,6 +92,21 @@ a:hover {
   font-size: 0.92rem;
 }
 
+/* Temporarily hide the Paintings/Artworks page from the site navigation */
+.nav-links a[href$="artworks.html"],
+.nav-links a[href$="paintings.html"] {
+  display: none;
+}
+
+.hidden-notice {
+  background: var(--accent-soft);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  padding: 18px;
+  text-align: center;
+  margin: 24px 0;
+}
+
 .nav-item {
   position: relative;
 }
