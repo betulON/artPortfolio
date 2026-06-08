@@ -2,7 +2,7 @@ const themeToggle = document.querySelector("[data-theme-toggle]");
 const root = document.documentElement;
 
 const savedTheme = localStorage.getItem("portfolio-theme");
-if (savedTheme === "dark") {
+if (savedTheme !== "light") {
   root.classList.add("dark-theme");
   if (themeToggle) themeToggle.textContent = "White";
 }
