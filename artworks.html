@@ -4,9 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Paintings | Betul On</title>
+  <title>Artworks | Betul On</title>
   <meta name="description" content="Graduate application portfolio." />
-  <meta name="robots" content="noindex">
 
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -27,7 +26,7 @@
         </div>
       </div>
 
-      <a class="nav-link" href="artworks.html">Paintings</a>
+      <a class="nav-link" href="artworks.html">Artworks</a>
       <a class="nav-link" href="about.html">About/CV</a>
 
       <button class="theme-toggle" type="button" data-theme-toggle>Black</button>
@@ -36,110 +35,114 @@
 </header>
   
   <main>
-    <div class="container">
-      <div class="hidden-notice">This page is temporarily hidden. Return to <a href="index.html">home</a>.</div>
-    </div>
     <section class="page-section">
       <div class="container">
         <div class="section-heading">
-          <div class="eyebrow">Traditional & Digital Work</div>
-          <h1>Paintings and illustrations</h1>
+          <div class="eyebrow">Traditional Work</div>
+          <h1>Artworks</h1>
           <p>
-            Include your strongest traditional and digital paintings. Each work can have a minimalist artwork label/künye next to it. You can remove the label text for studies where you do not want to include detailed information.
+            Paintings and studies made by hand in oil, watercolor, graphite, and conté.
           </p>
         </div>
 
-        <div class="painting-list">
-          <article class="painting-item">
-            <div class="painting-image">Artwork 01<br />assets/images/artwork-01.jpg</div>
-            <div class="painting-meta">
-              <h3>Artwork Title</h3>
-              <dl>
-                <dt>Medium</dt>
-                <dd>Oil painting / digital painting</dd>
-                <dt>Year</dt>
-                <dd>2026</dd>
-                <dt>Notes</dt>
-                <dd>A short sentence about emotion, figure, light, or theme.</dd>
-              </dl>
-            </div>
-          </article>
+        <nav class="artwork-index" aria-label="Artwork categories">
+          <a href="#paintings">Paintings</a>
+          <a href="#studies">Studies</a>
+        </nav>
 
-          <article class="painting-item">
-            <div class="painting-image">Artwork 02<br />assets/images/artwork-02.jpg</div>
-            <div class="painting-meta">
-              <h3>Artwork Title</h3>
-              <dl>
-                <dt>Medium</dt>
-                <dd>Traditional painting</dd>
-                <dt>Year</dt>
-                <dd>2026</dd>
-                <dt>Notes</dt>
-                <dd>A short sentence about composition, atmosphere, or character.</dd>
-              </dl>
-            </div>
-          </article>
+        <!-- Paintings -->
+        <section id="paintings" class="artwork-group">
+          <h2 class="group-title">Paintings</h2>
 
-          <article class="painting-item">
-            <div class="painting-image">Artwork 03<br />assets/images/artwork-03.jpg</div>
-            <div class="painting-meta">
-              <h3>Artwork Title</h3>
-              <dl>
-                <dt>Medium</dt>
-                <dd>Digital illustration</dd>
-                <dt>Year</dt>
-                <dd>2026</dd>
-                <dt>Notes</dt>
-                <dd>A short sentence about storytelling or visual mood.</dd>
-              </dl>
-            </div>
-          </article>
+          <div class="painting-list">
+            <article class="painting-item">
+              <a class="painting-image" href="assets/images/paintings/web/1-2026-the-sacrificial-self-oils-canvas-35x50.jpg" target="_blank" rel="noopener">
+                <img src="assets/images/paintings/web/1-2026-the-sacrificial-self-oils-canvas-35x50.jpg" alt="Oil painting of a mermaid arching upward through blue-green water toward yellow light" loading="lazy" />
+              </a>
+              <div class="painting-meta">
+                <h3><em>The Sacrificial Self</em>, 2026</h3>
+                <dl>
+                  <dt>Medium</dt>
+                  <dd>Oil on canvas</dd>
+                  <dt>Dimensions</dt>
+                  <dd>35 × 50 cm</dd>
+                </dl>
+              </div>
+            </article>
+            <article class="painting-item">
+              <a class="painting-image" href="assets/images/paintings/web/2-2026-after-happily-ever-after-oils-canvas-35x50.jpg" target="_blank" rel="noopener">
+                <img src="assets/images/paintings/web/2-2026-after-happily-ever-after-oils-canvas-35x50.jpg" alt="Oil painting of a woman in a pale blue gown running up castle stairs toward a lit doorway" loading="lazy" />
+              </a>
+              <div class="painting-meta">
+                <h3><em>After Happily Ever After</em>, 2026</h3>
+                <dl>
+                  <dt>Medium</dt>
+                  <dd>Oil on canvas</dd>
+                  <dt>Dimensions</dt>
+                  <dd>35 × 50 cm</dd>
+                </dl>
+              </div>
+            </article>
+            <article class="painting-item">
+              <a class="painting-image" href="assets/images/paintings/web/3-2026_burn-to-rise_watercolor.jpg" target="_blank" rel="noopener">
+                <img src="assets/images/paintings/web/3-2026_burn-to-rise_watercolor.jpg" alt="Watercolor portrait of a woman's face emerging from blue and orange washes" loading="lazy" />
+              </a>
+              <div class="painting-meta">
+                <h3><em>Burn to Rise</em>, 2026</h3>
+                <dl>
+                  <dt>Medium</dt>
+                  <dd>Watercolor on paper</dd>
+                  <dt>Dimensions</dt>
+                  <dd>A3 (29.7 × 42 cm)</dd>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </section>
 
-          <article class="painting-item">
-            <div class="painting-image">Artwork 04<br />assets/images/artwork-04.jpg</div>
-            <div class="painting-meta">
-              <h3>Artwork Title</h3>
-              <dl>
-                <dt>Medium</dt>
-                <dd>Portrait / figure study</dd>
-                <dt>Year</dt>
-                <dd>2026</dd>
-                <dt>Notes</dt>
-                <dd>Add what you practiced: anatomy, expression, color, light, or gesture.</dd>
-              </dl>
-            </div>
-          </article>
+        <!-- Studies -->
+        <section id="studies" class="artwork-group">
+          <h2 class="group-title">Studies</h2>
 
-          <article class="painting-item">
-            <div class="painting-image">Artwork 05<br />assets/images/artwork-05.jpg</div>
-            <div class="painting-meta">
-              <h3>Artwork Title</h3>
-              <dl>
-                <dt>Medium</dt>
-                <dd>Character / concept piece</dd>
-                <dt>Year</dt>
-                <dd>2026</dd>
-                <dt>Notes</dt>
-                <dd>Mention design goal, mood, symbolism, or narrative function.</dd>
-              </dl>
-            </div>
-          </article>
-
-          <article class="painting-item">
-            <div class="painting-image">Artwork 06<br />assets/images/artwork-06.jpg</div>
-            <div class="painting-meta">
-              <h3>Artwork Title</h3>
-              <dl>
-                <dt>Medium</dt>
-                <dd>Sketchbook / study work</dd>
-                <dt>Year</dt>
-                <dd>2026</dd>
-                <dt>Notes</dt>
-                <dd>Use only if it supports the portfolio direction.</dd>
-              </dl>
-            </div>
-          </article>
-        </div>
+          <div class="study-grid">
+            <figure class="study-item">
+              <a href="assets/images/paintings/web/4-2026-study.jpg" target="_blank" rel="noopener">
+                <img src="assets/images/paintings/web/4-2026-study.jpg" alt="Oil study of a winged male figure seated on a dark rock" loading="lazy" />
+              </a>
+              <figcaption>
+                <em>Study</em>, 2026<br />
+                Oil
+              </figcaption>
+            </figure>
+            <figure class="study-item">
+              <a href="assets/images/paintings/web/5-2026-study.jpg" target="_blank" rel="noopener">
+                <img src="assets/images/paintings/web/5-2026-study.jpg" alt="Graphite drawing of the Venus de Milo sculpture" loading="lazy" />
+              </a>
+              <figcaption>
+                <em>Study</em>, 2026<br />
+                Graphite on paper
+              </figcaption>
+            </figure>
+            <figure class="study-item">
+              <a href="assets/images/paintings/web/6-2026-study-4-self-portrait.jpg" target="_blank" rel="noopener">
+                <img src="assets/images/paintings/web/6-2026-study-4-self-portrait.jpg" alt="Sketchbook spread with conté portraits and quick figure drawings" loading="lazy" />
+              </a>
+              <figcaption>
+                <em>Study 4 (Self-Portrait)</em>, 2026<br />
+                Conté and charcoal on paper
+              </figcaption>
+            </figure>
+            <figure class="study-item">
+              <a href="assets/images/paintings/web/7-2026-study.jpg" target="_blank" rel="noopener">
+                <img src="assets/images/paintings/web/7-2026-study.jpg" alt="Sketchbook spread with graphite portraits and a watercolor horse" loading="lazy" />
+              </a>
+              <figcaption>
+                <em>Study</em>, 2026<br />
+                Graphite and watercolor on paper
+              </figcaption>
+            </figure>
+          </div>
+        </section>
       </div>
     </section>
   </main>
