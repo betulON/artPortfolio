@@ -1,0 +1,5 @@
+.DS_Store
+
+# Full-resolution artwork originals stay local; the site uses the web/ copies
+assets/images/paintings/*
+!assets/images/paintings/web/
